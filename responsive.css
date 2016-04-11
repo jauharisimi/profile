@@ -1,0 +1,22 @@
+.col-one-third-first {
+ 	width: 47.5%;
+
+}
+.col-one-third-second {
+ 	width: 47.5%;
+ }
+ .col-one-third-last {
+  	clear: both;
+  	float: none;
+  	width: auto;
+  	padding: 20px 0 0 0;
+
+ }
+
+ @media screen and (max-width: 500px){
+ 	div.mobile-collapse {
+ 		width: auto;
+ 		float: none;
+ 		margin-right: 0;
+ 	}
+ }
